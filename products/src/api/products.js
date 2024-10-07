@@ -66,6 +66,8 @@ module.exports = (app) => {
     app.put('/wishlist',UserAuth, async (req,res,next) => {
 
         const { _id } = req.user;
+
+        const {data} = await service.GetProductPayload
         
         try {
             const product = await service.GetProductById(req.body._id);

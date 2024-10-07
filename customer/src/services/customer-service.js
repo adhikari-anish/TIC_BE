@@ -158,6 +158,9 @@ class CustomerService {
             case 'CREATE_ORDER':
                 this.ManageOrder(userId,order);
                 break;
+            case 'TESTING':
+                console.log("Logging from app event test");
+                
             default:
                 break;
         }
