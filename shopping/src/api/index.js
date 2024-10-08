@@ -1,6 +1,5 @@
 
 module.exports = {
-    customer: require('./customer'),
-    products: require('./products'),
-    shopping: require('./shopping')
+    shopping: require('./shopping'),
+    appEvent: require('./app-events')
 }
