@@ -122,7 +122,13 @@ class CustomerService {
 
     async ManageCart(customerId, product, qty, isRemove){
         try {
-            const cartResult = await this.repository.AddCartItem(customerId, product, qty, isRemove);        
+
+            console.log(">>>> hereee", customerId, product, qty, isRemove);
+            
+            const cartResult = await this.repository.AddCartItem(customerId, product, qty, isRemove);     
+            
+            console.log(">>> cart result", cartResult);
+            
             return FormateData(cartResult);
         } catch (err) {
             throw new APIError('Data Not found', err)
@@ -139,6 +145,8 @@ class CustomerService {
     }
 
     async SubscribeEvents(payload){
+
+        payload = JSON.parse(payload)
  
         const { event, data } =  payload;
 
