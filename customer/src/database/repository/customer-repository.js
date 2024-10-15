@@ -146,6 +146,9 @@ class CustomerRepository {
     try {
       const profile = await CustomerModel.findById(customerId).populate("cart");
 
+      console.log("===> profile", profile);
+      
+
       if (profile) {
         const cartItem = {
           product: { _id, name, price, banner },
