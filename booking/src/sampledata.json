@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Sydney Harbour Marriott Hotel",
+      "desc": "Luxurious hotel overlooking the iconic Sydney Harbour with premium facilities",
+      "type": "hotel accommodation",
+      "banner": "https://www.example.com/images/sydney_harbour_marriott.jpg",
+      "unit": 1,
+      "price": 320,
+      "available": true,
+      "suplier": "Marriott International"
+    },
+    {
+      "name": "Great Barrier Reef Snorkeling Tour",
+      "desc": "Explore the world's largest coral reef system with a full-day guided snorkeling tour",
+      "type": "tour",
+      "banner": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/d7/26.jpg",
+      "unit": 1,
+      "price": 180,
+      "available": true,
+      "suplier": "Reef Adventures Australia"
+    },
+    {
+      "name": "Uluru Ayers Rock Resort",
+      "desc": "Experience the Australian outback with a stay near the iconic Uluru",
+      "type": "hotel accommodation",
+      "banner": "https://www.example.com/images/uluru_resort.jpg",
+      "unit": 1,
+      "price": 270,
+      "available": true,
+      "suplier": "Voyages Indigenous Tourism Australia"
+    },
+    {
+      "name": "Sydney Opera House Guided Tour",
+      "desc": "A guided tour of Australia's most famous architectural landmark",
+      "type": "sightseeing",
+      "banner": "https://powertraveller.com/wp-content/uploads/2024/08/1_sydney-opera-house-official-guided-walking-tour.jpg",
+      "unit": 1,
+      "price": 45,
+      "available": true,
+      "suplier": "Sydney Opera House Tours"
+    },
+    {
+      "name": "Cairns Coral Reef Hotel",
+      "desc": "Seaside hotel in the heart of Cairns, perfect for Great Barrier Reef explorers",
+      "type": "hotel accommodation",
+      "banner": "https://www.example.com/images/cairns_coral_reef_hotel.jpg",
+      "unit": 1,
+      "price": 190,
+      "available": true,
+      "suplier": "Coral Reef Hotels Group"
+    },
+    {
+      "name": "Melbourne City Art and Culture Tour",
+      "desc": "Discover Melbourne's vibrant art scene, historical landmarks, and street art",
+      "type": "tour",
+      "banner": "https://www.example.com/images/melbourne_city_art_tour.jpg",
+      "unit": 1,
+      "price": 65,
+      "available": true,
+      "suplier": "Culture Walks Melbourne"
+    },
+    {
+      "name": "Whitsunday Islands One-Day Cruise",
+      "desc": "Sail around the beautiful Whitsunday Islands, including stops at Whitehaven Beach",
+      "type": "one day trip",
+      "banner": "https://www.example.com/images/whitsunday_islands_cruise.jpg",
+      "unit": 1,
+      "price": 220,
+      "available": true,
+      "suplier": "Whitsunday Cruises"
+    },
+    {
+      "name": "Tasmania Cradle Mountain Lodge",
+      "desc": "Luxury lodge offering stunning views and hiking opportunities around Cradle Mountain",
+      "type": "hotel accommodation",
+      "banner": "https://www.example.com/images/cradle_mountain_lodge.jpg",
+      "unit": 1,
+      "price": 280,
+      "available": true,
+      "suplier": "Tasmanian Wilderness Resorts"
+    },
+    {
+      "name": "Adelaide Barossa Valley Wine Tour",
+      "desc": "Full-day guided tour of Barossa Valley, Australia's most famous wine region",
+      "type": "tour",
+      "banner": "https://www.example.com/images/barossa_valley_wine_tour.jpg",
+      "unit": 1,
+      "price": 120,
+      "available": true,
+      "suplier": "Wine & Dine Adventures"
+    },
+    {
+      "name": "Kakadu National Park Wildlife Safari",
+      "desc": "One-day trip through Kakadu National Park, home to diverse wildlife and Aboriginal culture",
+      "type": "one day trip",
+      "banner": "https://www.example.com/images/kakadu_national_park_safari.jpg",
+      "unit": 1,
+      "price": 150,
+      "available": true,
+      "suplier": "Outback Wilderness Safaris"
+    }
+  ]
+  
