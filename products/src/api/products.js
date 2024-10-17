@@ -1,4 +1,4 @@
-const { CUSTOMER_BINDING_KEY, SHOPPING_BINDING_KEY } = require('../config');
+const { CUSTOMER_BINDING_KEY, BOOKING_BINDING_KEY } = require('../config');
 const ProductService = require('../services/product-service');
 const {  PublishMessage  } = require('../utils')
 const UserAuth = require('./middlewares/auth')
@@ -113,7 +113,7 @@ module.exports = (app, channel) => {
             // PublishCustomerEvent(data);
             PublishMessage(channel, CUSTOMER_BINDING_KEY, JSON.stringify(data));
             // PublishShoppingEvent(data)
-            PublishMessage(channel, SHOPPING_BINDING_KEY, JSON.stringify(data));
+            PublishMessage(channel, BOOKING_BINDING_KEY, JSON.stringify(data));
 
             const response = {
                 product: data.data.product,
